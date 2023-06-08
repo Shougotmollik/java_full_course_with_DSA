@@ -1,3 +1,4 @@
+![image](https://github.com/Shougotmollik/java_full_course_with_DSA/assets/113712457/3afdb9cc-04ab-4619-9d60-ef0e788500b7)
 
 Java is a widely used, general-purpose programming language that is designed to be platform-independent. It is known for its simplicity, readability, and versatility. Java programs are compiled into bytecode, which can be executed on any system with a Java Virtual Machine (JVM).
 
