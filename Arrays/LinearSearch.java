@@ -17,7 +17,8 @@ public class LinearSearch {
         int index=leSrch(numbers, key);
         if(index==-1){
             System.out.println("Print NOT found");
-        }else{
+        }
+        else{
             System.out.println("The index is "+index);
         }
     }
