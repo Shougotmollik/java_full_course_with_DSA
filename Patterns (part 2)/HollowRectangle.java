@@ -1,10 +1,10 @@
 public class HollowRectangle {
 
-    //crreating a function 
+    //creating a function
     public static void hollow_rectangle(int totRows, int totCols){
-        // creating a outter loop
+        // creating outer loop
         for (int i = 1; i <=totRows; i++) {
-            // creating a inner loop ==> columns
+            // creating inner loop ==> columns
             for(int j=1;j<=totCols;j++){  // cell ==> (i,j)
                 if(i==1||i==totRows||j==1||j==totCols){
                     //boundary cell 
