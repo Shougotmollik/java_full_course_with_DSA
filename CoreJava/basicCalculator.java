@@ -1,24 +1,36 @@
 package CoreJava;
 
-import java.util.Objects;
 import java.util.Scanner;
 
 public class basicCalculator {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc=new Scanner(System.in);
 
-        System.out.print("Enter Number1 : ");
+        System.out.print("Enter First Number :");
+        int a=sc.nextInt();
 
-        double num1 = sc.nextDouble();
-        double num2 = sc.nextDouble();
-        String oprator = sc.nextLine();
+        System.out.print("Enter Operator :");
+        char operator=sc.next().charAt(0);
 
-        if (Objects.equals(oprator, "+")) {
-            System.out.println("The addition of two is "+(num1+num2));
-        } else if (oprator=="-") {
-            System.out.println("The subtraction of two number is "+(num1-num2));
-        } else if (oprator=="*") {
-            System.out.println();
+        System.out.print("Enter Second Number :");
+        int b=sc.nextInt();
+
+
+        switch (operator){
+            case '+':
+                System.out.println("Addition is "+(a+b));
+                break;
+            case '-':
+                System.out.println("Subtraction is "+(a-b));
+                break;
+            case '*':
+                System.out.println("multiplication is "+(a*b));
+                break;
+            case '/':
+                System.out.println("Division is "+(a/b));
+                break;
+            default:
+                System.out.println("Invalid input ");
         }
     }
 }
